@@ -55,10 +55,20 @@ h1 {
 
 }
 
+.CTAButton:hover{
+  background-color: #E3D1D6;
+}
+
 /* Style the footer */
 .footer {
   background-color: #f1f1f1;
-  padding: 10px;
+}
+
+.footer img{
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: flex-end;
+  width:20%
 }
 
 .topnav {
@@ -69,6 +79,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  width: 500px;
 }
 
 .topbarbutton a{
@@ -281,9 +292,10 @@ padding: 0px 20px 20px 20px;
 }
 
 .footer img{
+  display: flex;
+  align-items: flex-end;
   width:10%;
   border-radius: 25%;
-  padding: 10px;
 }
 
 .copyright{
@@ -301,6 +313,10 @@ padding: 0px 20px 20px 20px;
 
 .mainBanner{
   width: 1000px;
+}
+
+.topbarbutton{
+  width: 500px;
 }
 
   .topnav{
@@ -370,6 +386,10 @@ padding: 0px 20px 20px 20px;
 
 .topnav{
   background-color:  #F4F2F5;
+}
+
+.topbarbutton{
+  width: 500px;
 }
 
   .logo{
