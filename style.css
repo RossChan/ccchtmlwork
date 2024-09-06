@@ -1,0 +1,628 @@
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height:100%;
+
+  background-color: #ECC8CA  ;
+}
+
+.logo{
+  width: 100%;
+}
+
+h1 {
+  color:red;
+  font-weight: bold;
+}
+
+.headspace{
+  width: 520px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #082932;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  background-color: #ddd;
+
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.topnav {
+  background-color: #F4F1EC  ;
+}
+
+.topbarbutton{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.topbarbutton a{
+  color: black;
+}
+
+.topnav img{
+  width:100px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.content img{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+.content {
+  background-color: #F4F1EC;
+display: flex;
+justify-content: center;
+
+}
+
+.headContent {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 20px 0px 20px;
+}
+
+.headContent h1{
+margin: 0px;
+}
+
+.headContent h3{
+  margin: 0px;
+  }
+
+.headContent button{
+  width: 50%;
+  background-color: #FFD3BA;
+  border: 0px;
+  border-radius: 10px;
+  color: black;
+  height: 30px;
+}
+
+
+.products{
+  background-color: #ECC8CA  ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 20px 0px 20px;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+.orderList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 20px 20px 40px;
+}
+
+.orderForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  flex-direction: column;
+}
+
+.aboutUs {
+  background-color: #F49FBC;
+display: flex;
+justify-content: center;
+}
+
+
+.socialMediaHeadline{
+  display: flex;
+  justify-content: center;
+}
+
+.socialMediaLogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+padding: 20px;
+}
+
+
+.contactContent {
+  width:500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 20px 0px 20px;
+}
+
+
+.contactUsSpace{
+  width: 500px;
+}
+
+.contactUs {
+  background-color: #ECC8CA;
+display: flex;
+justify-content: center;
+
+}
+
+.contactUsAll {
+  background-color: #ECC8CA    ;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 0px 20px 20px 20px;
+}
+
+.aboutUsContent {
+  background-color: #F4F1EC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 20px 0px 20px;
+  width: 1000px;
+}
+
+.aboutUsSpace {
+  background-color: #F4F1EC;
+  width: 900px;
+}
+
+.aboutUsImage{
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding: 30px;
+  text-decoration: underline;
+}
+
+.footer img{
+  width:10%;
+  border-radius: 25%;
+  padding: 10px;
+}
+
+.copyright{
+  display: flex;
+  justify-content: center;
+}
+/* Set the background color of body to tan */
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: #F4F2F5;
+  }
+
+.mainBanner{
+  width: 1000px;
+}
+
+  .topnav{
+      background-color:  #F4F2F5;
+    width: 1000px;
+  }
+
+  .slideshow-container{
+    width:1000px;
+  }
+
+.content{
+  background-color: #E6EBE8;
+  width: 1000px;
+}
+
+  .headspace{
+    width:5px;
+    }
+
+    .headContent{
+      background-color: #E6EBE8;
+    }
+
+.products{
+  background-color: #E3D1D6;
+  width: 1000px;
+}
+
+.dotAll{
+  background-color: #E3D1D6;
+}
+
+    .orderList{
+      background-color: #E3D1D6;
+      width:1000px;
+    }
+
+    .aboutUs{
+      width: 1000px;
+    }
+
+  .aboutUsSpace{
+    width:5px;
+  }
+
+  .aboutUsContent{
+    width: 1000px;
+  }
+  
+    .contactUs{
+      width:1000px;
+      display: flex;
+  flex-direction: column;
+    }
+
+    .contactUsAll{
+      background-color: #E6EBE8;
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 900px) {
+  body {
+
+  }
+
+.topnav{
+  background-color:  #F4F2F5;
+}
+
+  .logo{
+    width: 20px;
+  }
+
+.headContent{
+  background-color: #E6EBE8;
+  width: 1000px;
+  height:250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.products{
+  background-color: #E3D1D6;
+}
+
+.CTAButton{
+  padding: 10px 10px 10px 10px;
+}
+
+.headspace{
+width:5px;
+}
+
+
+  .content{
+    background-color: #E6EBE8;
+    width:1000;
+    display: flex;
+flex-direction: column;
+  }
+
+.contactContent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  .content img{
+    width:100%;
+  }
+
+.dotAll{
+  width:1000px;
+  background-color: #E3D1D6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.slideshow-container{
+  width:1000px;
+}
+
+.orderList{
+  background-color: #E3D1D6;
+  width:1000px;
+}
+
+.aboutUsImage{
+  width: 1000px;
+}
+
+.aboutUsContent{
+  background-color: #E3D1D6;
+  width: 1000px;
+}
+
+  .contactUs{
+    background-color: #ECC8CA    ;
+    width:1000px;
+    display: flex;
+flex-direction: column;
+  }
+
+  .aboutUs{
+    width: 1000px;
+  }
+
+  .contactUsContent{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+flex-direction: column;
+  }
+
+  .contactUs img{
+    width:100%;
+  }
+
+  .aboutUs{
+    width:100%;
+    display: flex;
+flex-direction: column;
+padding: 0px;
+  }
+
+  .aboutUs img{
+    width:100%;
+  }
+
+  .aboutUsSpace{
+    width:5px;
+  }
+
+  .contactUsAll{
+    background-color: #E6EBE8;
+  }
+
+  .footer{
+    visibility:hidden;
+  }
+
+  .copyright{
+    width:1000px;
+  }
+}
+
+
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 450px) {
+  .text {font-size: 11px}
+
+  body {
+  }
+
+ .topbarbutton{
+  font-size: 10px;
+ }
+  
+.topnav{
+  background-color: #EFEEE9;
+}
+
+  .topnav img{
+      width:70px;
+      border-radius: 50%;
+      padding: 10px;
+    }
+
+    .headContent{
+      background-color: #EFEEE9;
+      width: 1000px;
+    }
+
+.products{
+  background-color: #EAE8D7;
+  width: 1000px;
+}
+
+  .content{
+    background-color: #EFEEE9    ;
+    width:1000px;
+    display: flex;
+flex-direction: column;
+  }
+
+  .content img{
+    width:100%;
+  }
+
+.orderList{
+  background-color: #EAE8D7;
+}
+
+.slideshow-container{
+  background-color: #EAE8D7;
+}
+
+.dotAll{
+  background-color: #EAE8D7;
+}
+
+  .aboutUsSpace{
+    width:5px;
+  }
+
+.contactUsAll{
+ background-color: #F0E6E0;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+
+
+.socialMediaLogo{
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagramLogo{
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.facebookLogo{
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .contactUs{
+    background-color: #F0E6E0;
+    width:1000px;
+    display: flex;
+flex-direction: column;
+  }
+
+  .aboutUsContent{
+    background-color: #E0E5E1;
+  }
+
+  .contactUs img{
+    width:100%;
+  }
+
+  .aboutUs{
+    width:100%;
+    display: flex;
+flex-direction: column;
+  }
+
+  .aboutUs img{
+    width:100%;
+  }
+
+  .socialMediaLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: 20px;
+  }
+
+  .footer{
+    visibility:hidden;
+  }
+}
+
